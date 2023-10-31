@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <test-app></test-app>
+    <task-manager></task-manager>
   </div>
 </template>
 
 <script>
-import Test from "./components/Test.vue";
+import TasksManage from "./components/TasksManage.vue";
 
 export default {
   name: "App",
   components: {
-    "test-app": Test,
+    "task-manager": TasksManage,
   },
 };
 </script>
